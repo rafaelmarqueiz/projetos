@@ -1,5 +1,6 @@
 body {
   background: var(--background);
+  height: 100vh;
 }
 header h1 {
   text-align: center;
