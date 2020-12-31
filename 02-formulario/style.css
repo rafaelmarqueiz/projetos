@@ -1,0 +1,104 @@
+body {
+  background: var(--background);
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+  padding-top: 3rem;
+
+  border-radius: 0.5rem;
+
+  background: var(--darkGrey);
+}
+
+h1 {
+  color: var(--white);
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.campos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem 0;
+}
+
+.campos input[type=text],
+input[type=password] {
+  height: 5rem;
+  width: 70%;
+  border-radius: 0.2rem;
+  border: none;
+  margin: 0.8rem 0;
+  text-align: center;
+}
+
+.campos input[type=submit] {
+  height: 5rem;
+  width: 30%;
+  margin-top: 0.9rem;
+
+  font-size: 2rem;
+  color: var(--white);
+  background: var(--grey);
+
+  border: none;
+  border-radius: 3rem;
+
+  transition: 0.3s;
+}
+
+.campos input[type=submit]:hover {
+  background: var(--black);
+  cursor: pointer;
+}
+
+hr {
+  color: var(--darkGrey);
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.criarConta {
+  text-decoration: none;
+  color: var(--white);
+
+  transition: 0.3s;
+}
+
+.criarConta:hover {
+  color: var(--grey);
+}
+
+.signature {
+  color: var(--black);
+  font-size: 2rem;
+
+  margin-top: 1rem;
+  line-height: 5rem;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.signature:hover {
+  color: var(--grey);
+}
